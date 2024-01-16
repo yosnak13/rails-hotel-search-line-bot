@@ -1,0 +1,16 @@
+current directory: /Users/yoshi/Ruby_APP_2023/rails-hotel-search-line-bot/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+/Users/yoshi/.rbenv/versions/3.1.2/bin/ruby -I /Users/yoshi/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20240116-92550-ozg2sp.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yoshi/Ruby_APP_2023/rails-hotel-search-line-bot/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= clean
+
+current directory: /Users/yoshi/Ruby_APP_2023/rails-hotel-search-line-bot/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\=
+compiling stringio.c
+linking shared-object stringio.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/yoshi/Ruby_APP_2023/rails-hotel-search-line-bot/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20240116-92550-2fl5nn
