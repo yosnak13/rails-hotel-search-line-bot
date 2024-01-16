@@ -481,6 +481,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="line-bot-api (vbundled(1.28.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/line-bot-api-1.28.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.1.0/gems/line-bot-api-1.28.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="loofah (vbundled(2.22.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
