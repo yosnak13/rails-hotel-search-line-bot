@@ -1,0 +1,113 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://travel.rakuten.co.jp/"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ここに楽天APIで取得したホテル名を表示",
+        "weight": "bold",
+        "size": "md",
+        "wrap": true
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "住所",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "住所を表示",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "料金",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "料金を表示",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "電話する",
+          "uri": "tel:03-0000-0000"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "地図を見る",
+          "uri": "https://www.google.com/maps?q=35.690921,139.700258"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}
